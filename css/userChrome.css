@@ -1,0 +1,57 @@
+/* Hide the tab bar */
+#tabbrowser-tabs { visibility: collapse !important; }
+
+/* hide forward burrom */
+toolbarbutton#forward-button { visibility: collapse !important; }
+
+/* hide sidebar close button */
+toolbarbutton#sidebar-close { visibility: collapse !important; }
+
+/* reduce sidebar title height */
+sidebarheader#sidebar-header { padding: 0px !important; }
+
+/* hide reader mode button */
+image#reader-mode-button { visibility: collapse !important; }
+
+/* change tab color
+.tabbrowser-tab[unread="true"] {color: red !important}
+.tabbrowser-tab[pending="true"] {color: yellow !important} 
+*/
+
+/* location bar辺りの高さを低くする */
+#urlbar, .searchbar-textbox {
+  font-size: 16px;
+  min-height: 20px !important;
+  margin: 0 !important;
+}
+#nav-bar, #nav-bar-customization-target { height: 22px !important; }
+#nav-bar .toolbarbutton-1 .toolbarbutton-badge-stack { padding: 0 var(--toolbarbutton-inner-padding) !important; } 
+
+/* 検索バーの → を常に表示するように固定 */
+.search-go-button { display: inline-block !important; } 
+
+/* コンテクストメニューの項目を隠す */
+menuseparator,
+#context-openlink,
+#context-openlinkprivate,
+#context-openlinkinusercontext-menu,
+#context-bookmarklink,
+#context-savelink,
+#context-copyemail,
+#context-sendimage,
+#context-setDesktopBackground,
+#context-sendlinktodevice,
+#context-viewbgimage,
+#screenshots_mozilla_org_create-screenshot,
+#context-sendpagetodevice,
+#context-savepage,
+#context-navigation,
+#extension_one-tab_com_2,
+#firefox-enpass_enpass_io_enpassContextMenu
+{ display: none !important; }
+
+/* hide TST header */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header { display: none; }
+
+/* hide Vertical Tabs header */
+#sidebar-box[sidebarcommand="verticaltabsreloaded_go-dev_de-sidebar-action"] #sidebar-header { display: none; }
