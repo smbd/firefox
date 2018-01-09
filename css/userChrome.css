@@ -55,3 +55,6 @@ menuseparator,
 
 /* hide Vertical Tabs header */
 #sidebar-box[sidebarcommand="verticaltabsreloaded_go-dev_de-sidebar-action"] #sidebar-header { display: none; }
+
+/* hide Tab Center Redux header */
+#sidebar-box[sidebarcommand="_0ad88674-2b41-4cfb-99e3-e206c74a0076_-sidebar-action"]  #sidebar-header {  visibility: collapse; }
