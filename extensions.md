@@ -17,6 +17,6 @@
  * ロケーションバーから新しいタブを開く
  * はてなブックマーク
  * Gesture
-  * FoxyGesture
-  * Gesturefy
+   * FoxyGesture
+   * Gesturefy
 
