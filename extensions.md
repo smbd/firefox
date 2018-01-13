@@ -3,6 +3,7 @@
  * Always Right
  * Chrome Store Foxified
  * Enpass Password Manager
+ * Focus On Left Tab After Closing
  * Foxy Proxy Standard
  * Greasemonkey
  * Multiple Paste and Go Button
