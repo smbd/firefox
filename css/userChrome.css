@@ -32,6 +32,7 @@ image#reader-mode-button { visibility: collapse !important; }
 
 /* コンテクストメニューの項目を隠す */
 menuseparator,
+#context-searchselect,
 #context-openlink,
 #context-openlinkprivate,
 #context-openlinkinusercontext-menu,
